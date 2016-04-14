@@ -1,0 +1,13 @@
+numpy==1.8.1
+scipy==0.14.0
+mahotas==1.1.0
+ipython==3.2.1
+bottle==0.12.9
+Pillow==2.9.0
+pytesseract
+bottle==0.12.9
+CherryPy==5.1.0
+Pillow==2.9.0
+requests==2.7.0
+requests-oauthlib==0.5.0
+requests-toolbelt==0.4.0
