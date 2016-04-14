@@ -4,3 +4,6 @@ port = 8080
 max_file_size = 1048576
 wait_time = 0.005
 timeout = 4
+reloader = True
+debug = True
+server = cherrypy

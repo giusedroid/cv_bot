@@ -8,7 +8,7 @@ import time
 """
 	LOAD CONFIGURATIONS
 	
-	EXAMPLE:
+	EXAMPLE: ./conf
 
 	[self]
 	host = 0.0.0.0
@@ -24,6 +24,9 @@ conf = cp.read("config")
 
 HOST = cp.get("self", "host")
 PORT = cp.get("self", "port")
+DEBUG = cp.get("self", "debug")
+RELOADER = cp.get("self", "reloader")
+SERVER = cp.get("self", "server")
 MAX_FILE_SIZE = cp.get("self", "max_file_size")
 WAIT_TIME = cp.getfloat("self", "wait_time")
 TIMEOUT = cp.getint("self", "timeout")
@@ -85,4 +88,4 @@ def home():
 
 
 #	RUN APPLICATION ############################################################
-app.run(host=HOST, port=PORT, reloader=True, debug=True)
+app.run(host=HOST, port=PORT, reloader=RELOADER, debug=DEBUG, server=SERVER)
