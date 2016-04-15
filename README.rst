@@ -39,5 +39,6 @@ CV-BOT
 ======
 
 Start the CV-BOT with the following commands from the guest
+
 	$ cd /vagrant_data/data/cv_bot
 	$ python server.py
